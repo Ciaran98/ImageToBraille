@@ -1,0 +1,15 @@
+{
+  "name": "imagetoascii",
+  "version": "1.0.0",
+  "description": "Image to ASCII",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ciarán Melarkey",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "sharp": "^0.30.6"
+  }
+}
