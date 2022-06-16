@@ -7,7 +7,7 @@ let rows = 0;
 let data_to_write ='';
 // Read image, resize, color the background, resize, and convert to bmp
 function ImageToBmp(){
-    Jimp.read('4.png',(err, image)=>{
+    Jimp.read('1.png',(err, image)=>{
         if(err) throw err;
         image
         .resize(WIDTH,HEIGHT)
